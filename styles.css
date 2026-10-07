@@ -1,0 +1,54 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+
+max-width: 700px;
+line-height: 1.5;
+font-size: 18px;
+}
+
+.has-drop-cap::first-letter{
+initial-letter: 3;
+color: goldenrod;
+margin-right: 10px;
+}
+
+
+.by-line{
+border-top:1px solid #dddd
+font-weight: bold;
+font-size: 14px;
+padding-top: 10px;
+}
+
+
+.by-line-link 
+{
+    color:teal
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.pipe {
+    color: #dddd;
+}
+
+.blog-image {
+    max-width:100%;
+    height: auto;
+    border-bottom: 5px solid goldenrod;
+}
+
+.caption {
+    background-color: #eeee;
+    padding: 15px;
+margin-top: -4px;
+font-size: 14px;
+line-height: 1.4;
+
+}
